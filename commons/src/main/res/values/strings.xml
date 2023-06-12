@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_popular_movie">Popular Movie</string>
+    <string name="label_top_rated">Top Rated</string>
+    <string name="label_now_playing">Now Playing</string>
+    <string name="label_favorite_movie">Favorite Movie</string>
+    <string name="label_description">Description</string>
+    <string name="label_review">Review</string>
+    <string name="label_title">Title</string>
+    <string name="label_error_general_title">Terjadi Kesalahan</string>
+    <string name="label_error_general_desc">Kami sedang memperbaikinya. Mohon tunggu dan coba lagi.</string>
+    <string name="label_bottom_sheet_text">Bottom Sheet opened.\nBottom Sheet opened.\nBottom Sheet opened.\nBottom Sheet opened.\nBottom Sheet opened.\nBottom Sheet opened.</string>
+    <string name="label_success_remove_data">Data Removed</string>
+    <string name="label_success_insert_data">Data Inserted</string>
+    <string name="label_detail">Detail</string>
+</resources>

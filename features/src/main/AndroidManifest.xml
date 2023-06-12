@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.id.parkee.features">
+
+    <application>
+        <activity
+            android:name="com.id.parkee.features.dashboard.DashboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.id.parkee.features.movie.MovieDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.id.parkee.features.favorite.FavoriteActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
