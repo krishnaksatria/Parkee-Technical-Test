@@ -5,11 +5,11 @@ import com.id.parkee.room.domain.RoomRepositoryContract
 class RoomRepository(
     private val roomDao: RoomDao
 ) : RoomRepositoryContract {
-    override fun insertFavoriteMovie(reminder: FavoriteMovieData): Long =
-        roomDao.insertFavoriteMovie(reminder)
+    override fun insertFavoriteMovie(movie: FavoriteMovieData): Long =
+        roomDao.insertFavoriteMovie(movie)
 
-    override fun removeFavoriteMovie(reminder: FavoriteMovieData): Int =
-        roomDao.removeFavoriteMovie(reminder)
+    override fun removeFavoriteMovie(movie: FavoriteMovieData): Int =
+        roomDao.removeFavoriteMovie(movie)
 
     override fun getFavoriteMovieList(): List<FavoriteMovieData> = roomDao.getFavoriteMovieList()
 }

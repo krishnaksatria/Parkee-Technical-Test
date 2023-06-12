@@ -7,6 +7,15 @@ plugins {
 android {
     compileSdkVersion versions.compileSdkVersion
 
+    signingConfigs {
+        release {
+            storeFile file('keystore')
+            storePassword 'technicaltestparkee#'
+            keyAlias 'technical-test-parkee'
+            keyPassword 'technicaltestparkee#'
+        }
+    }
+
     defaultConfig {
         applicationId "com.id.parkee"
         minSdkVersion versions.minSdkVersion
